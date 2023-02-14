@@ -12,7 +12,7 @@ const Navbar = props => {
 
     return (
         <div className='flex'>
-            <div className='absolute right-0 pt-8 pr-8' onClick={handleToggleShowNav}>
+            <div className='fixed right-0 pt-8 pr-8' onClick={handleToggleShowNav}>
                 <RxHamburgerMenu size="40"/>
             </div>
 
