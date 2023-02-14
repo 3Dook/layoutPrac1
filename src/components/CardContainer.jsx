@@ -5,7 +5,10 @@ import Card from './Card';
 const CardContainer = props => {
     return (
         <div className='w-[80%]'>
-            <Card img="../assests/download.jpg" />            
+            <Card img="duck1.jpg" />            
+            <Card img="duck1.jpg" />            
+            <Card img="duck1.jpg" />            
+            <Card img="duck1.jpg" />            
         </div>
     );
 };
