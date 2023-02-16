@@ -41,7 +41,7 @@ const Footer = props => {
                         </ul>
                     </div>
                 </div>
-                <div className='pt-8 pb-8 sm:w-[90%]'>
+                <div className='pt-8 pb-8 sm:w-[90%]' id="contactMe">
                     <h1 className='font-bold text-2xl tracking-[0.15em] uppercase leading-normal'>
                         GET IN TOUCH
                     </h1>

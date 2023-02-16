@@ -37,7 +37,8 @@ const Navbar = props => {
                                 <li className='border-b-2 border-[#ffffff] w-10/12'>Home</li>
                                 <li className='border-b-2 border-[#ffffff] w-10/12'>About</li>
                                 <li className='border-b-2 border-[#ffffff] w-10/12'>SignUp/LogOut</li>
-                                <li className=''>Contact</li>
+                                <li className=''><a href='#contactMe'>Contact</a></li>
+                                
                         </ul>
                     </div>
                 </div>
