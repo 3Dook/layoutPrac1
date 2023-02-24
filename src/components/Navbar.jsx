@@ -34,8 +34,12 @@ const Navbar = props => {
                         [&>li]:py-4 
                         [&>li]:pt-4 
                         '>
-                                <li className='border-b-2 border-[#ffffff] w-10/12'>Home</li>
-                                <li className='border-b-2 border-[#ffffff] w-10/12'>About</li>
+                                <li className='border-b-2 border-[#ffffff] w-10/12'>
+                                    <a href='/'>Home</a>
+                                </li>
+                                <li className='border-b-2 border-[#ffffff] w-10/12'>
+                                    <a href='about'>About</a>
+                                </li>
                                 <li className='border-b-2 border-[#ffffff] w-10/12'>SignUp/LogOut</li>
                                 <li className=''><a href='#contactMe'>Contact</a></li>
                                 
